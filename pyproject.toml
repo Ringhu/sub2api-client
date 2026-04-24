@@ -1,0 +1,25 @@
+[project]
+name = "sub2api-client"
+version = "0.1.0"
+description = "Reference Python client for sub2api-style OpenAI-compatible reverse proxies (text + image)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "sub2api-client contributors" }]
+keywords = ["openai", "sub2api", "reverse-proxy", "llm", "image-generation"]
+dependencies = [
+    "openai>=1.50",
+    "python-dotenv>=1.0",
+    "httpx>=0.27",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/sub2api-client"
+Issues = "https://github.com/your-username/sub2api-client/issues"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["llm_client", "probe_models"]
