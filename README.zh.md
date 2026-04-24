@@ -20,7 +20,7 @@ English version: [README.md](README.md)
 ## 快速开始
 
 ```bash
-git clone https://github.com/your-username/sub2api-client.git
+git clone https://github.com/Ringhu/sub2api-client
 cd sub2api-client
 pip install -e .
 
