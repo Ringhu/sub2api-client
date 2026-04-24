@@ -23,7 +23,7 @@ representative sub2api proxy (tested 2026-04-23).
 ## Quick start
 
 ```bash
-git clone https://github.com/your-username/sub2api-client.git
+git clone https://github.com/Ringhu/sub2api-client
 cd sub2api-client
 pip install -e .
 
